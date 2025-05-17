@@ -26,6 +26,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define WS2812_SPI_SCK_PAL_MODE 0
 #define WS2812_SPI_SCK_PIN B13
 
+/* QMK */
+#define TAPPING_TERM 200
+
+/* Miryoku */
+#define BILATERAL_COMBINATIONS
+#define BILATERAL_COMBINATIONS_LIMIT_CHORD_TO_N_KEYS 4 /* GUI, Alt, Ctrl, Shift */
+// #define BILATERAL_COMBINATIONS_DELAY_MODS_THAT_MATCH MOD_MASK_GUI
+// #define BILATERAL_COMBINATIONS_DELAY_MATCHED_MODS_BY 120  /* ms */
+#define BILATERAL_COMBINATIONS_ALLOW_CROSSOVER_AFTER 75   /* ms */
+#define BILATERAL_COMBINATIONS_ALLOW_SAMESIDED_AFTER 250 /* ms */
+#define BILATERAL_COMBINATIONS_TYPING_STREAK_TIMEOUT 160  /* ms */
+#define BILATERAL_COMBINATIONS_TYPING_STREAK_MODMASK (~MOD_MASK_SHIFT)
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
