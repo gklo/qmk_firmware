@@ -27,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define WS2812_SPI_SCK_PIN B13
 
 /* QMK */
-#define TAPPING_TERM 200
+#define TAPPING_TERM 150
 
 /* Miryoku */
 #define BILATERAL_COMBINATIONS
@@ -35,7 +35,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define BILATERAL_COMBINATIONS_DELAY_MODS_THAT_MATCH MOD_MASK_GUI
 // #define BILATERAL_COMBINATIONS_DELAY_MATCHED_MODS_BY 120  /* ms */
 #define BILATERAL_COMBINATIONS_ALLOW_CROSSOVER_AFTER 75   /* ms */
-#define BILATERAL_COMBINATIONS_ALLOW_SAMESIDED_AFTER 250 /* ms */
+#define BILATERAL_COMBINATIONS_ALLOW_SAMESIDED_AFTER 150 /* ms */
 #define BILATERAL_COMBINATIONS_TYPING_STREAK_TIMEOUT 160  /* ms */
 #define BILATERAL_COMBINATIONS_TYPING_STREAK_MODMASK (~MOD_MASK_SHIFT)
 
